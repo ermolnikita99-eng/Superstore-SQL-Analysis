@@ -24,7 +24,7 @@
 
 ## Скриншоты результатов
 
-![Эффективность менеджеров](images/manager_performance.png)  
+![Эффективность менеджеров](images/manager_performance.png](https://github.com/ermolnikita99-eng/Superstore-SQL-Analysis/blob/main/images/Screenshot_1.png)  
 ![Топ проблемных продуктов](images/problem_products.png)
 
 ## Как запустить
