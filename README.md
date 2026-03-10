@@ -25,10 +25,10 @@
 ## Скриншоты результатов
 
 **Эффективность менеджеров**  
-![Менеджеры](images/manager_performance.png)
+![Менеджеры](images/Screenshot_1.png)
 
 **Проблемные продукты**  
-![Продукты](images/problem_products.png)
+![Продукты](images/Screenshot_2.png)
 
 ## Как запустить проект
 
