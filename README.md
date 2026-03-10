@@ -1,34 +1,34 @@
-# Superstore Sales & Returns Analysis
+# Анализ продаж Superstore (SQL)
 
-Анализ продаж и возвратов в интернет-магазине Superstore (учебный датасет).
+Портфолио junior Data Analyst  
+Анализ учебного датасета Superstore с использованием SQL (SQLite + PostgreSQL)
 
-**Цель проекта** — научиться работать с реляционными данными: соединять таблицы, считать ключевые метрики, находить проблемные зоны и давать рекомендации бизнесу.
+## О проекте
 
-**Технологии**  
-- PostgreSQL / SQLite  
-- SQL (JOIN, GROUP BY, CASE WHEN, агрегатные функции)  
-- DBeaver (для работы с базой)
+- Датасет: Superstore (заказы, возвраты, менеджеры)
+- Инструменты: DBeaver, SQLite, PostgreSQL
+- Навыки: SELECT, WHERE, GROUP BY, JOIN (LEFT/INNER), CASE WHEN, агрегаты, проценты, анализ возвратов
 
-## Ключевые запросы и выводы
+## Основные запросы
 
-1. **Эффективность менеджеров**  
-   - Лучший менеджер: Erin (East) — 0% возвратов при выручке >1.3 млн  
-   - Худший по возвратам: William (West) — 0.23% при максимальной выручке
+1. Базовая фильтрация и группировка → `sql_queries/01_basic_select.sql`  
+2. Возвраты по регионам → `sql_queries/03_joins_returns.sql`  
+3. Эффективность менеджеров (выручка + % возвратов) → `sql_queries/04_manager_performance.sql`  
+4. Самые проблемные продукты → `sql_queries/05_problem_products.sql`
 
-2. **Топ-проблемные продукты**  
-   - Mitel 5320 IP Phone VoIP phone — 40% возвратов  
-   - Konftel 250 Conference phone — 40% возвратов  
-   → Рекомендация: срочно проверить качество и описание этих товаров
+## Ключевые выводы
 
-## Как запустить проект
-
-1. Установить PostgreSQL или использовать SQLite  
-2. Импортировать данные (см. sql/schema_and_load.sql)  
-3. Выполнить анализ (sql/analysis.sql)
+- Лучший менеджер: **Erin (East)** — 0% возвратов при высокой выручке  
+- Худший по возвратам: **William (West)** — 0,23% возвратов (15 случаев)  
+- Самые проблемные продукты: Mitel 5320 IP Phone и Konftel 250 Conference phone (по 40% возвратов)
 
 ## Скриншоты результатов
 
-![Менеджеры](images/managers_performance.png)
-![Топ-продукты по возвратам](images/top_products_returns.png)
+![Эффективность менеджеров](images/manager_performance.png)  
+![Топ проблемных продуктов](images/problem_products.png)
 
-Готов к вопросам и ревью!
+## Как запустить
+
+1. Установить DBeaver  
+2. Подключить superstore.db (SQLite) или импортировать данные в PostgreSQL  
+3. Выполнить файлы из папки sql_queries
