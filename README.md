@@ -35,6 +35,3 @@
 1. Установите DBeaver  
 2. Подключите базу `superstore.db` (SQLite) или импортируйте CSV в PostgreSQL  
 3. Выполните файлы из папки `sql_queries/`
-
-Готов к собеседованиям на позицию Junior Data Analyst / BI Analyst  
-Связь: [LinkedIn / Telegram / email] — добавь свои контакты
