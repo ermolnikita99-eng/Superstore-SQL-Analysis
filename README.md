@@ -30,5 +30,5 @@
 ## Как запустить
 
 1. Установить DBeaver  
-2. Подключить (db_files/superstore_db.db) (SQLite) или импортировать данные в PostgreSQL  
+2. Подключить superstore.db (SQLite) или импортировать данные в PostgreSQL  
 3. Выполнить файлы из папки sql_queries
